@@ -1,0 +1,17 @@
+package com.cuemymusic.user.service.domain.dto.authentication.authenticate;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class AuthenticationCommand {
+
+    private String email;
+    String password;
+}

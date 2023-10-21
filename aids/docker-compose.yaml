@@ -1,0 +1,45 @@
+version: "3.8"
+services:
+  db:
+    image: postgres
+    container_name: local_pgdb
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: admin
+    volumes:
+      - local_pgdata:/var/lib/postgresql/data
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin4_container
+    restart: always
+    ports:
+      - "5050:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: raj@nola.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+  mosquitto: 
+    image: eclipse-mosquitto
+    container_name: mosquitto_container
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+      - ./mosquitto.log:/mosquitto/log/mosquitto.log
+    ports:
+      - 1883:1883
+      - 9001:9001
+  audio-player:
+    image: zacode/audio_player:latest
+    restart: always
+    network_mode: "host"
+    volumes:
+      - /run/user/1000/pulse:/run/user/1000/pulse
+      - ../downloaded_songs/:/home/downloaded_songs/
+      # - /etc/netplan/01-netcfg.yaml:/etc/netplan/01-netcfg.yaml
+      - ./config.json:/home/zz/projects/files/config.json
+volumes:
+  local_pgdata:
+  pgadmin-data:
