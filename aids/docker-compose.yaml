@@ -7,8 +7,8 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: admin
+      POSTGRES_USER: backend
+      POSTGRES_PASSWORD: 8578
     volumes:
       - local_pgdata:/var/lib/postgresql/data
   pgadmin:
@@ -40,6 +40,35 @@ services:
       - ../downloaded_songs/:/home/downloaded_songs/
       # - /etc/netplan/01-netcfg.yaml:/etc/netplan/01-netcfg.yaml
       - ./config.json:/home/zz/projects/files/config.json
+  user-service:
+    depends_on: [db]
+    image: user-service:latest
+    environment:
+      SPRING.DATASOURCE.URL: jdbc:postgresql://db:5432/cuemusic
+    ports:
+      - 8080:8080
+  firmware-service:
+    depends_on: [db]
+    image: user-service:latest
+    environment:
+      SPRING.DATASOURCE.URL: jdbc:postgresql://db:5432/cuemusic
+    ports:
+      - 8082:8082
+  reports-service:
+    depends_on: [db]
+    image: user-service:latest
+    environment:
+      SPRING.DATASOURCE.URL: jdbc:postgresql://db:5432/cuemusic
+    ports:
+      - 8083:8080
+  club-service:
+    depends_on: [db]
+    image: user-service:latest
+    environment:
+      SPRING.DATASOURCE.URL: jdbc:postgresql://db:5432/cuemusic
+    ports:
+      - 8081:8081
+
 volumes:
   local_pgdata:
   pgadmin-data:
