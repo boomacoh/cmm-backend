@@ -62,15 +62,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-maven-plugin</artifactId>
             <configuration>
+                <mainClass>com.cuemymusic.club.service.container.app.ClubApplication</mainClass>
+                <layout>JAR</layout>
                 <image>
                     <name>${project.groupId}/club.service:${project.version}</name>
                 </image>
             </configuration>
             <executions>
                 <execution>
-                    <phase>install</phase>
                     <goals>
-                        <goal>build-image</goal>
+                        <goal>repackage</goal>
                     </goals>
                 </execution>
             </executions>

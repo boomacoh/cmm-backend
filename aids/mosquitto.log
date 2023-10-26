@@ -3300,3 +3300,33 @@
 1688026524: Saving in-memory database to /mosquitto/data//mosquitto.db.
 1688026929: mosquitto version 2.0.15 terminating
 1688026929: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1698265198: mosquitto version 2.0.18 starting
+1698265198: Config loaded from /mosquitto/config/mosquitto.conf.
+1698265198: Opening ipv4 listen socket on port 1883.
+1698265198: Opening ipv6 listen socket on port 1883.
+1698265198: mosquitto version 2.0.18 running
+1698265720: mosquitto version 2.0.18 terminating
+1698265720: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1698265728: mosquitto version 2.0.18 starting
+1698265728: Config loaded from /mosquitto/config/mosquitto.conf.
+1698265728: Opening ipv4 listen socket on port 1883.
+1698265728: Opening ipv6 listen socket on port 1883.
+1698265728: mosquitto version 2.0.18 running
+1698265750: mosquitto version 2.0.18 terminating
+1698265750: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1698265796: mosquitto version 2.0.18 starting
+1698265796: Config loaded from /mosquitto/config/mosquitto.conf.
+1698265796: Opening ipv4 listen socket on port 1883.
+1698265796: Opening ipv6 listen socket on port 1883.
+1698265796: mosquitto version 2.0.18 running
+1698265854: New connection from 172.23.0.1:32884 on port 1883.
+1698265854: New client connected from 172.23.0.1:32884 as spring-server (p2, c1, k60).
+1698265856: Client spring-server closed its connection.
+1698266738: New connection from 172.23.0.1:52558 on port 1883.
+1698266738: New client connected from 172.23.0.1:52558 as spring-server (p2, c1, k60).
+1698266741: Client spring-server closed its connection.
+1698267597: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1698269398: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1698271199: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1698272505: mosquitto version 2.0.18 terminating
+1698272505: Saving in-memory database to /mosquitto/data//mosquitto.db.

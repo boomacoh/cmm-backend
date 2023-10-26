@@ -58,15 +58,16 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <mainClass>com.cuemymusic.user.service.container.app.UserApplication</mainClass>
+                    <layout>JAR</layout>
                     <image>
                         <name>${project.groupId}/user.service:${project.version}</name>
                     </image>
                 </configuration>
                 <executions>
                     <execution>
-                        <phase>install</phase>
                         <goals>
-                            <goal>build-image</goal>
+                            <goal>repackage</goal>
                         </goals>
                     </execution>
                 </executions>
