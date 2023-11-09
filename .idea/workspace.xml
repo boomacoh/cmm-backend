@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="455f50b6-2d65-4482-862e-dabad5db2225" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/club-service/club-container/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/club-service/club-container/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/club-service/club-dataaccess/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/club-service/club-dataaccess/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firmware-service/firmware-container/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/firmware-service/firmware-container/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firmware-service/firmware-dataaccess/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/firmware-service/firmware-dataaccess/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports-service/reports-container/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reports-service/reports-container/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-application/src/main/java/com/cuemymusic/user/service/application/rest/SongController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-application/src/main/java/com/cuemymusic/user/service/application/rest/SongController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-application/src/main/java/com/cuemymusic/user/service/application/rest/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-application/src/main/java/com/cuemymusic/user/service/application/rest/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-container/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-container/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/java/com/cuemymusic/user/service/dataaccess/song/adaptor/SongRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/java/com/cuemymusic/user/service/dataaccess/song/adaptor/SongRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/java/com/cuemymusic/user/service/dataaccess/song/entity/SongEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/java/com/cuemymusic/user/service/dataaccess/song/entity/SongEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/java/com/cuemymusic/user/service/dataaccess/song/mapper/SongDataAccessMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/java/com/cuemymusic/user/service/dataaccess/song/mapper/SongDataAccessMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/java/com/cuemymusic/user/service/dataaccess/song/repository/SongJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/java/com/cuemymusic/user/service/dataaccess/song/repository/SongJpaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/dto/song/query/QuerySongData.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/dto/song/query/QuerySongData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/ports/impl/UserApplicationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/ports/impl/UserApplicationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/ports/impl/application/service/handlers/user/songs/QuerySongsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/ports/impl/application/service/handlers/user/songs/QuerySongsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/ports/input/service/UserApplicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/ports/input/service/UserApplicationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/ports/output/repository/song/SongRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/ports/output/repository/song/SongRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-domain/user-domain-core/src/main/java/com/cuemymusic/user/service/domain/entity/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-domain/user-domain-core/src/main/java/com/cuemymusic/user/service/domain/entity/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-domain/user-domain-core/src/main/java/com/cuemymusic/user/service/domain/entity/builder/SongBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-domain/user-domain-core/src/main/java/com/cuemymusic/user/service/domain/entity/builder/SongBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +126,7 @@
       <workItem from="1699345791973" duration="12741000" />
       <workItem from="1699442151021" duration="2982000" />
       <workItem from="1699491760322" duration="7894000" />
-      <workItem from="1699522533919" duration="2256000" />
+      <workItem from="1699522533919" duration="2903000" />
     </task>
     <servers />
   </component>
