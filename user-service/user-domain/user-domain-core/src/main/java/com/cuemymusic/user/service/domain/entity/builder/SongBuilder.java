@@ -4,6 +4,7 @@ import com.cuemymusic.user.service.domain.entity.Song;
 import com.cuemymusic.user.service.domain.entity.User;
 import com.cuemymusic.user.service.domain.valueobject.SongId;
 
+import java.sql.Date;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
@@ -19,6 +20,11 @@ public class SongBuilder {
     private String recordLabel;
     private Integer duration;
     private Boolean isFavorite;
+    private Long plays;
+    private Date createdDateTime;
+    private Date updatedDateTime;
+    private String createdBy;
+    private String updatedBy;
 
     public SongBuilder setSongId(SongId songId) {
         this.songId = songId;
@@ -75,7 +81,29 @@ public class SongBuilder {
         return this;
     }
 
+    public SongBuilder setPlays(long plays) {
+        this.plays = plays;
+        return this;
+    }
+
+    public SongBuilder setCreatedDateTime(Date createdDateTime) {
+        this.createdDateTime = createdDateTime;
+        return this;
+    }
+    public SongBuilder setUpdatedDateTime(Date updatedDateTime) {
+        this.updatedDateTime = updatedDateTime;
+        return this;
+    }
+    public SongBuilder setCreatedBy(String createdBy) {
+        this.createdBy = createdBy;
+        return this;
+    }
+    public SongBuilder setUpdatedBy(String updatedBy) {
+        this.updatedBy = updatedBy;
+        return this;
+    }
+    
     public Song createSong() {
-        return new Song(songId, owner, name, fileLocation, uploadName, copyRight, title, artist, recordLabel, duration, isFavorite);
+        return new Song(songId, owner, name, fileLocation, uploadName, copyRight, title, artist, recordLabel, duration, isFavorite,plays,createdDateTime,updatedDateTime,createdBy,updatedBy);
     }
 }

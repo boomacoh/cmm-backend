@@ -22,6 +22,11 @@ public class SongDataAccessMapper {
                 .setTitle(songEntity.getTitle())
                 .setUploadName(songEntity.getUploadName())
                 .setIsFavorite(songEntity.getIsFavorite())
+                .setPlays(songEntity.getPlays())
+                .setCreatedDateTime(songEntity.getCreatedDateTime())
+                .setUpdatedDateTime(songEntity.getUpdatedDateTime())
+                .setCreatedBy(songEntity.getCreatedBy())
+                .setUpdatedBy(songEntity.getUpdatedBy())
                 .createSong();
     }
 }

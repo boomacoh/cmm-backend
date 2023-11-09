@@ -27,6 +27,8 @@ import com.cuemymusic.user.service.domain.dto.user.profile.UserProfileResponse;
 import com.cuemymusic.user.service.domain.valueobject.SongMetaData;
 import jakarta.validation.Valid;
 
+import java.sql.Date;
+import java.time.LocalDateTime;
 import java.util.UUID;
 
 public interface UserApplicationService {
@@ -93,6 +95,7 @@ public interface UserApplicationService {
     SetFavoriteResponse setFavoriteSong(String token, UUID songID);
     ClearFavoriteResponse clearFavoriteSong(String token, UUID songID);
     QuerySongResponse getSongs(String token, Boolean isOwned, Boolean isFavorite);
+    QuerySongResponse findSongInfoByDateRange(LocalDateTime startDateTime, LocalDateTime endDateTime);
     void share(String token, UUID songId, UUID userId);
     void updateName(String token, UUID songId, UpdateName updateName);
 

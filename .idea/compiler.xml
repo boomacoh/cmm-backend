@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="club-application" target="17" />
+      <module name="club-application-service" target="17" />
+      <module name="club-authentication" target="17" />
+      <module name="club-container" target="17" />
+      <module name="club-dataaccess" target="17" />
+      <module name="club-domain" target="17" />
+      <module name="club-domain-core" target="17" />
+      <module name="club-service" target="17" />
+      <module name="common" target="17" />
+      <module name="common-domain" target="17" />
+      <module name="cuemymusic" target="17" />
+      <module name="firmware-application" target="17" />
+      <module name="firmware-application-services" target="17" />
+      <module name="firmware-authentication" target="17" />
+      <module name="firmware-container" target="17" />
+      <module name="firmware-dataaccess" target="17" />
+      <module name="firmware-domain" target="17" />
+      <module name="firmware-domain-core" target="17" />
+      <module name="firmware-service" target="17" />
+      <module name="reports-application" target="17" />
+      <module name="reports-application-service" target="17" />
+      <module name="reports-authentication" target="17" />
+      <module name="reports-container" target="17" />
+      <module name="reports-dataaccess" target="17" />
+      <module name="reports-domain" target="17" />
+      <module name="reports-domain-core" target="17" />
+      <module name="reports-service" target="17" />
+      <module name="user-application" target="17" />
+      <module name="user-application-services" target="17" />
+      <module name="user-authentication" target="17" />
+      <module name="user-container" target="17" />
+      <module name="user-dataaccess" target="17" />
+      <module name="user-domain" target="17" />
+      <module name="user-domain-core" target="17" />
+      <module name="user-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -38,6 +38,8 @@ import com.cuemymusic.user.service.domain.valueobject.SongMetaData;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 
+import java.sql.Date;
+import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Component
@@ -216,6 +218,11 @@ public class UserApplicationServiceImpl implements UserApplicationService {
     @Override
     public QuerySongResponse getSongs(String token, Boolean isOwned, Boolean isFavorite) {
         return querySongsHandler.querySongs(token,isOwned, isFavorite);
+    }
+
+    @Override
+    public QuerySongResponse findSongInfoByDateRange(LocalDateTime startDateTime, LocalDateTime endDateTime) {
+        return querySongsHandler.findSongInfoByDateRange(startDateTime, endDateTime);
     }
 
     @Override

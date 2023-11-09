@@ -12,13 +12,17 @@ import com.cuemymusic.user.service.dataaccess.user.mapper.UserDataAccessMapper;
 import com.cuemymusic.user.service.domain.entity.Song;
 import com.cuemymusic.user.service.domain.mapper.SongDataMapper;
 import com.cuemymusic.user.service.domain.ports.output.repository.song.SongRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
+import java.sql.Date;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
 @Component
+@Slf4j
 public class SongRepositoryImpl implements SongRepository {
     private final SongJpaRepository songJpaRepository;
     private final UserSongJpaRepository userSongJpaRepository;
@@ -111,6 +115,15 @@ public class SongRepositoryImpl implements SongRepository {
     public void revokeAllConnections(UUID songId) {
         userSongJpaRepository.revokeAllShares(songId);
         userSongJpaRepository.revokeAllFavorites(songId);
+    }
+
+    @Override
+    public List<Song> findAllByCreatedByBetween(LocalDateTime startDateTime, LocalDateTime endDateTime) {
+        log.info("start " + startDateTime);
+        log.info("end " + endDateTime);
+        List<SongEntity> songEntityList =  songJpaRepository.findAllByCreatedByBetween(startDateTime,endDateTime);
+        log.info("result " + songEntityList.toString());
+        return songEntityList.stream().map(songDataAccessMapper::songEntityToSong).toList();    
     }
 
 }

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="455f50b6-2d65-4482-862e-dabad5db2225" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/club-service/club-container/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/club-service/club-container/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/club-service/club-dataaccess/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/club-service/club-dataaccess/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firmware-service/firmware-container/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/firmware-service/firmware-container/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firmware-service/firmware-dataaccess/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/firmware-service/firmware-dataaccess/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports-service/reports-container/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reports-service/reports-container/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-application/src/main/java/com/cuemymusic/user/service/application/rest/SongController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-application/src/main/java/com/cuemymusic/user/service/application/rest/SongController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-application/src/main/java/com/cuemymusic/user/service/application/rest/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-application/src/main/java/com/cuemymusic/user/service/application/rest/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-container/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-container/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/java/com/cuemymusic/user/service/dataaccess/song/adaptor/SongRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/java/com/cuemymusic/user/service/dataaccess/song/adaptor/SongRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/java/com/cuemymusic/user/service/dataaccess/song/entity/SongEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/java/com/cuemymusic/user/service/dataaccess/song/entity/SongEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/java/com/cuemymusic/user/service/dataaccess/song/mapper/SongDataAccessMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/java/com/cuemymusic/user/service/dataaccess/song/mapper/SongDataAccessMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/java/com/cuemymusic/user/service/dataaccess/song/repository/SongJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/java/com/cuemymusic/user/service/dataaccess/song/repository/SongJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-dataaccess/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/dto/song/query/QuerySongData.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/dto/song/query/QuerySongData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/ports/impl/UserApplicationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/ports/impl/UserApplicationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/ports/impl/application/service/handlers/user/songs/QuerySongsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/ports/impl/application/service/handlers/user/songs/QuerySongsHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/ports/input/service/UserApplicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/ports/input/service/UserApplicationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/ports/output/repository/song/SongRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-domain/user-application-services/src/main/java/com/cuemymusic/user/service/domain/ports/output/repository/song/SongRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-domain/user-domain-core/src/main/java/com/cuemymusic/user/service/domain/entity/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-domain/user-domain-core/src/main/java/com/cuemymusic/user/service/domain/entity/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-domain/user-domain-core/src/main/java/com/cuemymusic/user/service/domain/entity/builder/SongBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-domain/user-domain-core/src/main/java/com/cuemymusic/user/service/domain/entity/builder/SongBuilder.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EndpointsView">
+    <option name="showSidePanel" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2XhZIbngXTfatMxcGWf547k548Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;15&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;15&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jeff/Documents/zipher/cmm-backend/reports-service/reports-container/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;995757c14c483cf373e2eb89a48aee42&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/reports-service/reports-container/src/main/resources" />
+      <recent name="$PROJECT_DIR$/reports-service/reports-domain/reports-application-service/src/main/java/com/cuemymusic/reports/service/domain/ports/impl" />
+      <recent name="$PROJECT_DIR$/reports-service/reports-dataaccess/src/main/java/com/cuemymusic/reports/service/dataaccess/song" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cuemymusic.reports.service.domain.entity.builder" />
+      <recent name="com.cuemymusic.reports.service.dataaccess.song.repository" />
+      <recent name="com.cuemymusic.user.service.dataaccess.song.repository" />
+      <recent name="com.cuemymusic.reports.service.domain.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserApplication">
+    <configuration name="ClubApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="club-container" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cuemymusic.club.service.container.app.ClubApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirmwareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="firmware-container" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cuemymusic.firmware.service.container.app.FirmwareApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="reports-container" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cuemymusic.reports.service.container.app.ReportsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user-container" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cuemymusic.user.service.container.app.UserApplication" />
+      <option name="VM_PARAMETERS" value="-Djdk.jar.maxSignatureFileSize=16000000" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ClubApplication" />
+      <item itemvalue="Spring Boot.FirmwareApplication" />
+      <item itemvalue="Spring Boot.ReportsApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="455f50b6-2d65-4482-862e-dabad5db2225" name="Changes" comment="" />
+      <created>1699083193137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699083193137</updated>
+      <workItem from="1699083194379" duration="7698000" />
+      <workItem from="1699148309172" duration="151000" />
+      <workItem from="1699148469313" duration="11183000" />
+      <workItem from="1699332467826" duration="4348000" />
+      <workItem from="1699344068753" duration="1166000" />
+      <workItem from="1699345791973" duration="12741000" />
+      <workItem from="1699442151021" duration="2982000" />
+      <workItem from="1699491760322" duration="7894000" />
+      <workItem from="1699522533919" duration="2256000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
