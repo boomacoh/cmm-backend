@@ -2,6 +2,7 @@ package com.cuemymusic.user.service.domain.entity;
 
 import com.cuemymusic.user.service.domain.valueobject.SongId;
 
+import java.sql.Date;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
@@ -17,7 +18,11 @@ public class Song extends BaseEntity<SongId> {
     private String recordLabel;
     private Integer duration;
     private Boolean isFavorite;
-
+    private Long plays;
+    private Date createdDateTime;
+    private Date updatedDateTime;
+    private String createdBy;
+    private String updatedBy;
     public Song(SongId songId,
                 UUID owner,
                 String name,
@@ -28,7 +33,12 @@ public class Song extends BaseEntity<SongId> {
                 String artist,
                 String recordLabel,
                 Integer duration,
-                Boolean isFavorite) {
+                Boolean isFavorite,
+                Long plays,
+                Date createdDateTime,
+                Date updatedDateTime,
+                String createdBy,
+                String updatedBy) {
         this.id = songId;
         this.owner = owner;
         this.name = name;
@@ -40,6 +50,11 @@ public class Song extends BaseEntity<SongId> {
         this.recordLabel = recordLabel;
         this.duration = duration;
         this.isFavorite = isFavorite;
+        this.plays = plays;
+        this.createdDateTime = createdDateTime;
+        this.updatedDateTime = updatedDateTime;
+        this.createdBy = createdBy;
+        this.updatedBy = updatedBy;
     }
 
 
@@ -122,6 +137,46 @@ public class Song extends BaseEntity<SongId> {
 
     public void setFavorite(Boolean favorite) {
         isFavorite = favorite;
+    }
+
+    public Long getPlays() {
+        return plays;
+    }
+
+    public void setPlays(Long plays) {
+        this.plays = plays;
+    }
+
+    public Date getCreatedDateTime() {
+        return createdDateTime;
+    }
+
+    public void setCreatedDateTime(Date createdDateTime) {
+        this.createdDateTime = createdDateTime;
+    }
+
+    public Date getUpdatedDateTime() {
+        return updatedDateTime;
+    }
+
+    public void setUpdatedDateTime(Date updatedDateTime) {
+        this.updatedDateTime = updatedDateTime;
+    }
+
+    public String getCreatedBy() {
+        return createdBy;
+    }
+
+    public void setCreatedBy(String createdBy) {
+        this.createdBy = createdBy;
+    }
+
+    public String getUpdatedBy() {
+        return updatedBy;
+    }
+
+    public void setUpdatedBy(String updatedBy) {
+        this.updatedBy = updatedBy;
     }
 
     @Override

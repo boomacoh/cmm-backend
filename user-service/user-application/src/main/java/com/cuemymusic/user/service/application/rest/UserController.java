@@ -54,5 +54,7 @@ public class UserController {
         UpdateUserResponse deleteUserResponse = userApplicationService.updateUserByAdmin(updateUserCommand);
         return ResponseEntity.ok(deleteUserResponse);
     }
+    
+    
  
 }

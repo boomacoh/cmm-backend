@@ -12,6 +12,8 @@ import com.cuemymusic.user.service.domain.ports.output.repository.song.SongRepos
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
+import java.sql.Date;
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Slf4j
@@ -56,6 +58,11 @@ public class QuerySongsHandler {
             log.warn("User with EMAIL: " + email + "already exists");
             throw new UserDomainException("User with EMAIL: " + email + "already exists");
         }
+    }
+    
+    public QuerySongResponse findSongInfoByDateRange(LocalDateTime startDateTime, LocalDateTime endDateTime) {
+        List<Song> songs = songRepository.findAllByCreatedByBetween(startDateTime, endDateTime);
+        return songDataMapper.songsToQuerySongResponse(songs);
     }
 
 

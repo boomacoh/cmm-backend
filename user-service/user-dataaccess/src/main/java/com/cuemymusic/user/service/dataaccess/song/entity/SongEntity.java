@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import lombok.*;
 
 
+import java.sql.Date;
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -29,4 +30,9 @@ public class SongEntity {
     private String recordLabel;
     private Integer duration;
     private Boolean isFavorite;
+    private Long plays;
+    private Date createdDateTime;
+    private Date updatedDateTime;
+    private String createdBy;
+    private String updatedBy;
 }

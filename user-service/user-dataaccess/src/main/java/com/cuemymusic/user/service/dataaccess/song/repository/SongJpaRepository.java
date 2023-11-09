@@ -1,11 +1,14 @@
 package com.cuemymusic.user.service.dataaccess.song.repository;
 
 import com.cuemymusic.user.service.dataaccess.song.entity.SongEntity;
+import com.cuemymusic.user.service.domain.entity.Song;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
+import java.sql.Date;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -83,5 +86,7 @@ public interface SongJpaRepository extends JpaRepository<SongEntity,UUID> {
     @Query(value = "DELETE FROM users_favorite_songs\n" +
             "\tWHERE user_id = ?1 and song_id = ?2", nativeQuery = true)
     void clearFavorite(UUID userId, UUID songId);
+
+    List<SongEntity> findAllByCreatedByBetween(LocalDateTime startDateTime, LocalDateTime endDateTime);
 
 }
